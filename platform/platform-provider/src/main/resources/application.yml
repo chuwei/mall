@@ -6,7 +6,7 @@ spring:
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: "jdbc:mysql://localhost:3306/mall-platform"
+      url: "jdbc:mysql://localhost:3306/mall-platform?serverTimezone=Asia/Shanghai&useSSL=false&useUnicode=true&characterEncoding=UTF-8"
       username: root
       password: ysyhl9t!
 #dubbo配置
@@ -20,3 +20,5 @@ dubbo:
   registry:
     #zookeeper注册中心地址
     address: zookeeper://127.0.0.1:2181
+  application:
+    name: platform

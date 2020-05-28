@@ -13,10 +13,19 @@
     <artifactId>platform-provider</artifactId>
     <dependencies>
         <dependency>
-            <groupId>cn.geekchu.mall.platform</groupId>
+            <groupId>cn.geekchu.mall</groupId>
             <artifactId>platform-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

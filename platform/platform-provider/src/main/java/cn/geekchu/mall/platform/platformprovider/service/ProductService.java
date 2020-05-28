@@ -1,7 +1,8 @@
 package cn.geekchu.mall.platform.platformprovider.service;
 
 import cn.geekchu.mall.platform.platformprovider.entity.Product;
-import org.apache.dubbo.config.annotation.Service;
+import org.springframework.stereotype.Service;
+
 
 @Service
 public class ProductService {
