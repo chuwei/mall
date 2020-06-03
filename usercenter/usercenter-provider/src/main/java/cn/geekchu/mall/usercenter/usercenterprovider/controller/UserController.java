@@ -2,14 +2,11 @@ package cn.geekchu.mall.usercenter.usercenterprovider.controller;
 
 import cn.geekchu.mall.bussiness.businessapi.api.OrderApi;
 import cn.geekchu.mall.bussiness.businessapi.vo.OrderVo;
-import cn.geekchu.mall.common.framework.vo.CommonResult;
-import cn.geekchu.mall.usercenter.usercenterapi.vo.UserVo;
 import cn.geekchu.mall.usercenter.usercenterprovider.service.impl.UserServiceImpl;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

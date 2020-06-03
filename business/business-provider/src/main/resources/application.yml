@@ -15,7 +15,7 @@ dubbo:
     name: bussiness
   scan:
     # 包名根据自己的实际情况写
-    base-packages: cn.geekchu.mall.business.bussinessprovider
+    base-packages: cn.geekchu.mall.business.bussinessprovider.provider
   protocol:
     port: 20882
     name: dubbo

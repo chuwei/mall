@@ -9,7 +9,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Service(interfaceClass =UserApi.class)
+@Service(interfaceClass =UserApi.class,version = "1.0.0")
 @Component
 public class UserProvider implements UserApi {
 

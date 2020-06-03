@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import cn.geekchu.mall.platform.platformprovider.service.ProductService;
 import cn.geekchu.mall.platform.platformapi.vo.ProductVo;
 
-@Service(interfaceClass = ProductApi.class)
+@Service(interfaceClass = ProductApi.class,version = "1.0.0")
 @Component
 public class ProductProvider implements ProductApi {
 

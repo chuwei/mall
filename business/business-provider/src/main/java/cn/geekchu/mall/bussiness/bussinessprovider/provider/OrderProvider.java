@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service(interfaceClass = OrderApi.class)
+@Service(interfaceClass = OrderApi.class,version = "1.0.0")
 @Component
 public class OrderProvider implements OrderApi {
 

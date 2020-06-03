@@ -3,9 +3,6 @@ package cn.geekchu.mall.bussiness.bussinessprovider.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
-import java.math.BigDecimal;
-import java.util.Date;
-
 @Data
 @TableName(value = "t_order_detail")
 public class OrderDetail {
