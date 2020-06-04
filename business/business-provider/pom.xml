@@ -12,19 +12,11 @@
     <groupId>cn.geekchu.mall</groupId>
     <artifactId>business-provider</artifactId>
     <dependencies>
-
-        <dependency>
-            <groupId>com.alibaba.boot</groupId>
-            <artifactId>dubbo-spring-boot-starter</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>cn.geekchu.mall</groupId>
-            <artifactId>bussiness-api</artifactId>
+            <artifactId>business-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
-
         <!--商品服务接口暴露 api-->
         <dependency>
             <groupId>cn.geekchu.mall</groupId>

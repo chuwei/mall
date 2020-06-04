@@ -1,6 +1,6 @@
-import cn.geekchu.mall.bussiness.bussinessprovider.BussinessProviderApplication;
-import cn.geekchu.mall.bussiness.bussinessprovider.entity.Order;
-import cn.geekchu.mall.bussiness.bussinessprovider.mapper.OrderMapper;
+import cn.geekchu.mall.business.BusinessProviderApplication;
+import cn.geekchu.mall.business.entity.Order;
+import cn.geekchu.mall.business.mapper.OrderMapper;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BussinessProviderApplication.class)
+@SpringBootTest(classes = BusinessProviderApplication.class)
 public class SampleTest {
 
     @Autowired
