@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import cn.geekchu.mall.platform.service.ProductService;
 import cn.geekchu.mall.platform.vo.ProductVo;
 
-@Service(interfaceClass = ProductApi.class,version = "1.0.0")
+@Service(interfaceClass = ProductApi.class)
 @Component
 public class ProductProvider implements ProductApi {
 
@@ -18,6 +18,7 @@ public class ProductProvider implements ProductApi {
 
     @Override
     public ProductVo queryProductInfoById(String productId) {
+        System.out.println("productProvider is working now.....");
         //通过商品ID查询信息
         Product source = productService.getById(productId);
         if(source != null){
